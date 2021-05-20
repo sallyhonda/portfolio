@@ -1,65 +1,176 @@
 
 body {
-background-color : #D8BFD8;
+background-color : #ffffff;
 margin : auto;
-width : 75%;
+max-width : 800px;
+background-image : url("../images/bg.jpg");
+background-position : center;
+background-repeat : repeat;
 }
-h1 {
-color : white;
-font-size : 40px;
-padding : 0 0 10px 0;
-text-transform : uppercase;
-margin : 0;
-}
+
 h2 {
-color : white;
-font-size : 30px;
-padding-bottom : 10px;
-text-transform : uppercase;
+color : #52504c;
+font-size : 1rem;
+padding-bottom : 0;
+font-family : 'Playfair Display', serif;
+text-transform: uppercase;
+letter-spacing: 10px;
+padding-top:20px;
 }
+
+.projects a {
+color : #52504c;
+font-size : 1rem;
+padding-bottom : 0;
+font-family : 'Playfair Display', serif;
+text-transform: uppercase;
+letter-spacing: 10px;
+padding-top:30px;
+}
+
+.projects a:hover {
+color : #66635e;
+}
+
+p {
+font-family : 'Raleway', sans-serif;
+font-size : 14px;
+line-height : 28px;
+text-align : justify;
+color : #4a4846;
+}
+
+.projects p {
+padding-bottom:50px;
+}
+
+
+ a {
+text-decoration:none;
+}
+
+
+
+
 .projects-header {
 border-bottom : 1px solid #ffffff;
 }
 .aboutme {
-font-family : Arial, Helvetica, sans-serif;
-font-size : 12px;
-line-height : 20px;
-width : 90%;
+text-align : center;
+}
+.aboutme img {
+max-width : 410px;
+height : auto;
+padding-bottom : 0;
+filter : grayscale(100%);
+transition : all 0.5s ease;
+}
+.aboutme img:hover {
+filter : grayscale(0%);
+}
+.navigation {
+width : 100%;
+padding : 50px 0 50px 0;
+border-bottom : 1px solid #31302c;
+text-align : center;
+font-family : 'Playfair Display', serif;
+}
+.bio {
+font-family : 'Raleway', sans-serif;
+font-size : 14px;
+line-height : 28px;
 text-align : justify;
+color : #4a4846;
+padding : 30px 0 50px 0;
+margin : 0;
 }
-a {
-color : #483D8B;
+
+
+.bio h2 {
+color : #52504c;
+font-size : 1rem;
+padding-bottom : 10px;
+font-family : 'Playfair Display', serif;
+text-transform: uppercase;
+letter-spacing: 10px;
+padding-top:0px;
+text-align:center;
+}
+
+.navigation a {
+color : #31302c;
 text-decoration : none;
-font-family : Arial, Helvetica, sans-serif;
 text-transform : uppercase;
-font-weight : bold;
-font-size : 12px;
+font-size : 1rem;
+letter-spacing : 10px;
 }
-a:hover {
-border-bottom : 2px solid #ffffff;
-padding-bottom : 5px;
-color : #ffffff;
+.navigation a:hover {
+color : #66635e;
+}
+.navigation ul {
+text-decoration : none;
+list-style-type : none;
+display : inline;
+}
+.navigation li {
+text-decoration : none;
+list-style-type : none;
+display : inline;
+margin : 25px 25px 25px 10px;
 }
 .profile {
-float : left;
-margin : 0 10px 6px 0;
+margin : 0 0 6px 0;
 border : #ffffff solid 10px;
 padding : 0;
 }
 .project-image {
-border : #ffffff solid 10px;
-}
-ul, li {
-list-style-type : none;
-margin : 0;
-padding : 0 0 0 5px;
-border-bottom : 1px solid #ffffff;
+border : #efebe4 solid 15px;
+margin-right:20px;
 }
 .projects {
-padding-top : 70px;
-font-family : Arial, Helvetica, sans-serif;
 font-size : 12px;
 line-height : 20px;
-width : 90%;
-text-align : justify;
+flex-direction:column;
+padding: 30px 0 30px 0;
+}
+.projects img {
+max-width : 200px;
+float:left;
+
+
+}
+.container {
+display : flex;
+flex-direction : column;
+align-items : center;
+justify-content : center;
+}
+
+.first:first-letter {
+color : #52504c;
+font-family : 'Libre Baskerville', serif;
+padding-right : 10px;
+float : left;
+font-size : 6.5rem;
+line-height : 1;
+margin : 0.1em 0.1em 0.2em 0;
+}
+.footer {
+padding : 50px 0 50px 0;
+border-top : 1px solid #31302c;
+width : 100%;
+text-align : center;
+font-family : 'Playfair Display', serif;
+}
+.footer a {
+color : #31302c;
+text-decoration : none;
+text-transform : uppercase;
+font-size : 1.5em;
+letter-spacing : 5px;
+}
+
+.footer a:hover {
+color : #a09d96;
+
 }
