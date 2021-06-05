@@ -1,12 +1,14 @@
 
 body {
-background-color : #ffffff;
-margin : auto;
-max-width : 800px;
-background-image : url("../images/bg.jpg");
-background-position : center;
-background-repeat : repeat;
-}
+
+  margin : auto;
+  max-width : 800px;
+  background-image : url("../images/bg.jpg");
+  background-position : left top;
+  background-repeat : repeat;
+  background-size: 30%;
+  background-color: transparent;
+  }
 
 h2 {
 color : #52504c;
@@ -40,6 +42,12 @@ text-align : justify;
 color : #4a4846;
 }
 
+p:nth-of-type(odd){
+font-weight:bold;
+
+}
+
+
 .projects p {
 padding-bottom:50px;
 }
@@ -48,7 +56,6 @@ padding-bottom:50px;
  a {
 text-decoration:none;
 }
-
 
 
 
